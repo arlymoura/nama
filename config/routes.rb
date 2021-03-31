@@ -13,4 +13,5 @@ Rails.application.routes.draw do
   #     post :dashboard_import
   #   end
   # end
+  root 'dashboard#index'
 end
